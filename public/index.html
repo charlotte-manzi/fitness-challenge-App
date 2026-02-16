@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Challenge Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏋️ Fitness Challenge Generator</h1>
+            <p class="subtitle">Ton défi quotidien t'attend !</p>
+        </header>
+
+        <main>
+            <!-- Section Génération de défi -->
+            <section class="card generate-section">
+                <h2>Générer un Défi</h2>
+                
+                <div class="difficulty-selector">
+                    <label>Niveau de difficulté :</label>
+                    <div class="difficulty-buttons">
+                        <button class="difficulty-btn active" data-difficulty="all">Tous</button>
+                        <button class="difficulty-btn" data-difficulty="facile">😊 Facile</button>
+                        <button class="difficulty-btn" data-difficulty="moyen">💪 Moyen</button>
+                        <button class="difficulty-btn" data-difficulty="difficile">🔥 Difficile</button>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" id="generateBtn">
+                    🎲 Générer un Défi
+                </button>
+
+                <div id="challengeDisplay" class="challenge-display hidden">
+                    <div class="challenge-content">
+                        <h3 id="challengeName"></h3>
+                        <p id="challengeDescription"></p>
+                        <div class="challenge-details">
+                            <span class="badge" id="challengeCategory"></span>
+                            <span class="badge" id="challengeDifficulty"></span>
+                            <span class="badge points" id="challengePoints"></span>
+                        </div>
+                    </div>
+                    <button class="btn btn-success" id="completeBtn">
+                        ✅ Marquer comme Complété
+                    </button>
+                </div>
+            </section>
+
+            <!-- Section Statistiques -->
+            <section class="card stats-section">
+                <h2>📊 Tes Statistiques</h2>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" id="totalChallenges">0</div>
+                        <div class="stat-label">Défis complétés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="currentStreak">0</div>
+                        <div class="stat-label">Série actuelle</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" id="bestStreak">0</div>
+                        <div class="stat-label">Meilleure série</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section Historique -->
+            <section class="card history-section">
+                <h2>📅 Historique Récent</h2>
+                <div id="historyList" class="history-list">
+                    <p class="empty-state">Aucun défi complété pour le moment. Commence maintenant ! 💪</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Made with 💪 by Zaza & Nana</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
