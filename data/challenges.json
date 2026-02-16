@@ -1,0 +1,68 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "nom": "50 Pompes",
+      "description": "Faire 50 pompes en une session",
+      "categorie": "force",
+      "difficulte": "moyen",
+      "points": 50
+    },
+    {
+      "id": 2,
+      "nom": "Courir 5 kilomètres",
+      "description": "Faire un run de 5 km",
+      "categorie": "cardio",
+      "difficulte": "difficile",
+      "points": 100
+    },
+    {
+      "id": 3,
+      "nom": "Planche 2 minutes",
+      "description": "Tenir la position planche pendant 2 minutes",
+      "categorie": "force",
+      "difficulte": "difficile",
+      "points": 80
+    },
+    {
+      "id": 4,
+      "nom": "100 Jumping Jacks",
+      "description": "Faire 100 sauts avec écartement",
+      "categorie": "cardio",
+      "difficulte": "facile",
+      "points": 30
+    },
+    {
+      "id": 5,
+      "nom": "Méditation 10 minutes",
+      "description": "Séance de méditation de 10 minutes",
+      "categorie": "bien-être",
+      "difficulte": "facile",
+      "points": 40
+    },
+    {
+      "id": 6,
+      "nom": "30 Squats",
+      "description": "Faire 30 squats avec bonne forme",
+      "categorie": "force",
+      "difficulte": "facile",
+      "points": 35
+    },
+    {
+      "id": 7,
+      "nom": "Étirements 15 minutes",
+      "description": "Session complète d'étirements",
+      "categorie": "flexibilité",
+      "difficulte": "facile",
+      "points": 25
+    },
+    {
+      "id": 8,
+      "nom": "Burpees x 20",
+      "description": "Faire 20 burpees",
+      "categorie": "cardio",
+      "difficulte": "moyen",
+      "points": 60
+    }
+  ]
+}
