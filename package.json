@@ -1,0 +1,12 @@
+{
+  "name": "fitness-challenge-cli",
+  "version": "1.0.0",
+  "description": "Générateur de défis fitness en ligne de commande",
+  "main": "challenge.js",
+  "scripts": {
+    "start": "node challenge.js"
+  },
+  "keywords": ["fitness", "challenge", "cli"],
+  "author": "Ton nom",
+  "license": "MIT"
+}
