@@ -3,6 +3,7 @@
 const { genererDefi } = require('./commands/generate');
 const { completerDefi } = require('./commands/complete');
 const { calculerSerie } = require('./commands/streak');
+const { afficherStats } = require('./commands/stats');
 
 // Récupérer la commande
 const commande = process.argv[2];
@@ -21,11 +22,16 @@ switch(commande) {
     calculerSerie();
     break;
   
+  case 'stats':
+    afficherStats();
+    break;
+  
   default:
     console.log('\n🏋️  Fitness Challenge CLI 🏋️\n');
     console.log('Commandes disponibles:');
     console.log('  generate  - Générer un nouveau défi');
     console.log('  complete  - Marquer le défi comme complété');
-    console.log('  streak    - Voir ta série actuelle\n');
+    console.log('  streak    - Voir ta série actuelle');
+    console.log('  stats     - Voir tes statistiques\n');
     break;
 }
