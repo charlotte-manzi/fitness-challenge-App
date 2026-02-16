@@ -1,43 +1,33 @@
-# Générateur de Défis Fitness CLI
+# 🏋️ Générateur de Défis Fitness
 
-Un générateur de défis fitness en ligne de commande avec suivi de séries et système de badges.
+Un générateur de défis fitness avec interface web interactive et CLI.
 
-## Fonctionnalités prévues
+## ✨ Fonctionnalités
 
-- ⏳ Génération de défis aléatoires
-- ⏳ Marquage des défis complétés
-- ⏳ Système de difficulté
-- ⏳ Suivi des séries (streaks)
-- ⏳ Statistiques utilisateur
-- ⏳ Historique des défis
+- ✅ Génération de défis aléatoires
+- ✅ Filtrage par niveau de difficulté (facile, moyen, difficile)
+- ✅ Marquage des défis complétés
+- ✅ Suivi des séries (streaks)
+- ✅ Statistiques utilisateur en temps réel
+- ✅ Historique des défis
+- ✅ Interface web moderne et responsive
 
-## Installation
+## 🌐 Interface Web
+
+**Accéder à l'interface web :**
+
+Ouvre le fichier `public/index.html` dans ton navigateur ou utilise le lien de déploiement :
+
+👉 **[Lancer l'application web](public/index.html)**
+
+### Fonctionnalités de l'interface :
+- 🎲 Génération de défis avec sélection de difficulté
+- ✅ Marquage des défis comme complétés
+- 📊 Affichage des statistiques (défis complétés, séries)
+- 📅 Historique des 5 derniers défis
+- 💾 Sauvegarde automatique dans le navigateur
+
+## 💻 Version CLI (Ligne de commande)
+
+### Installation
 ```bash
-# Cloner le dépôt
-git clone [url-du-repo]
-
-# Installer les dépendances
-npm install
-
-# Générer un défi
-node challenge.js generate
-```
-
-## Contribution
-
-Voir docs/WORK_DISTRIBUTION.md pour la répartition des tâches.
-```
-
-**Sauvegarde** (Ctrl+S ou Cmd+S)
-
-### **Action 4.3 : Remplir .gitignore**
-
-Ouvre `.gitignore` et colle ceci :
-```
-node_modules/
-.env
-*.log
-dist/
-build/
-.DS_Store
-data/history.json
