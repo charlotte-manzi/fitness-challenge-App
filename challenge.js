@@ -11,7 +11,12 @@ const commande = process.argv[2];
 // Router vers la bonne fonction
 switch(commande) {
   case 'generate':
-    genererDefi();
+    const difficulte = process.argv[3]; // --difficulty facile
+    if (difficulte) {
+      genererDefiParDifficulte(difficulte);
+    } else {
+      genererDefi();
+    }
     break;
   
   case 'complete':
