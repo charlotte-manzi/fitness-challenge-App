@@ -3,7 +3,7 @@
 Un générateur de défis fitness avec interface web interactive et CLI.
 ## 🚀 Accéder à l'application
 
-[![Open in Streamlit](fitness-challenge-keza-naomie)
+https://fitness-challenge-keza-naomie.streamlit.app/
 
 ## ✨ Fonctionnalités
 
