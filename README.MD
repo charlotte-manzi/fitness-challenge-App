@@ -1,6 +1,9 @@
 # 🏋️ Générateur de Défis Fitness
 
 Un générateur de défis fitness avec interface web interactive et CLI.
+## 🚀 Accéder à l'application
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fitness-challenge-app.streamlit.app)
 
 ## ✨ Fonctionnalités
 
