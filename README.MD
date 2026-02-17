@@ -15,11 +15,7 @@ Un générateur de défis fitness avec interface web interactive et CLI.
 - ✅ Historique des défis
 - ✅ Interface web moderne et responsive
 
-## 🌐 Interface Web
 
-**Accéder à l'interface web :**
-
-Ouvre le fichier `public/index.html` dans ton navigateur ou utilise le lien de déploiement :
 
 👉 **[Lancer l'application web](public/index.html)**
 
